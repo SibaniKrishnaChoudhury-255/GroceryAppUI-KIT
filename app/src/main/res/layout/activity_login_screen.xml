@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.9"
+        android:src="@drawable/cart_logo">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Sign In">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="please enter your credential"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_design"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:hint="  Email@.."
+            >
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittext_design"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_password"
+            android:hint="  Password.."
+            >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittext_design"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="#F3B252"
+            android:text="Sign in" >
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="OR Login ">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="2">
+
+        <Button
+            android:background="@drawable/edittext_design"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textColor="#ED2C1E"
+            android:textStyle="bold"
+            android:layout_weight="1">
+
+        </Button>
+        <Button
+            android:background="@drawable/edittext_design"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:textStyle="bold"
+            android:textColor="#0E2AC5"
+            android:layout_weight="1">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

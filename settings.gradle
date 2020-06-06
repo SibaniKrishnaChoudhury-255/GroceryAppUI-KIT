@@ -1,0 +1,2 @@
+rootProject.name='NewGroceryUI-KIT'
+include ':app'
